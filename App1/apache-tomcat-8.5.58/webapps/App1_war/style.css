@@ -1,0 +1,44 @@
+/* CSS Document */
+body {
+  margin-right: 100px;
+  margin-left: 100px;
+  color:gray;
+  background-color: lightgreen;
+  /*background-repeat: repeat; */
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 7em;
+  font-family: Bodoni MT Black, serif;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 5em;
+  font-family: Bodoni MT Black, serif;
+}
+
+input[type=button], input[type=submit] {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  /*text-decoration: bold;*/
+  margin: 10px;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+p {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}

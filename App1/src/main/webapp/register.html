@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body link="yellow" vlink="yellow">
+<div style="text-align: center;">
+    <h1>To-Do List</h1><br />
+<form method="post" action="mainServlet">
+    <table class="center">
+        <tr><div class="mb-3">
+            <td>E-mail: </td><td><input type="text" name="login"><br /></td></div></tr>
+        <tr><div class="mb-3">
+            <td>Heslo: </td><td><input type="text" name="pswd"><br /></td></div></tr>
+        <tr><div class="mb-3">
+            <td>Opakuj heslo: </td><td><input type="text" name="pswd2"><br /></td></div></tr>
+        <tr><div class="mb-3">
+            <td>Meno: </td><td><input type="text" name="meno"><br /></td></div></tr>
+        <tr><div class="mb-3">
+            <td>Priezvisko: </td><td><input type="text" name="priezv"><br /></td></div></tr>
+    </table>
+    <input type="hidden" name="operacia" value="register"><br />
+    <br />
+    <button type="submit" class="btn btn-primary">Registruj</button>
+    <br />
+</form>
+    <br />
+    <a class="btn btn-primary" href="index.html" role="button">Späť</a>
+</div>
+</body>
+</html>

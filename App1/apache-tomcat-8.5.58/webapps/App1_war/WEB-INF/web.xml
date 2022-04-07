@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <servlet>
+        <servlet-name>mainServlet</servlet-name>
+        <servlet-class>com.ukf.app1.mainServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>mainServlet</servlet-name>
+        <url-pattern>/mainServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Servlet_input</servlet-name>
+        <servlet-class>com.ukf.app1.Servlet_input</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servlet_input</servlet-name>
+        <url-pattern>/Servlet_input</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Servlet_update</servlet-name>
+        <servlet-class>com.ukf.app1.Servlet_update</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Servlet_update</servlet-name>
+        <url-pattern>/Servlet_update</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Servlet_image</servlet-name>
+        <servlet-class>com.ukf.app1.Servlet_image</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Servlet_image</servlet-name>
+        <url-pattern>/Servlet_image</url-pattern>
+    </servlet-mapping>
+
+</web-app>
